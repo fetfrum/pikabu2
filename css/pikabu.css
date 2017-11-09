@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+.container {
+  width: 800px;
+  margin: 20px auto;
+}
+
+p>label {
+  display: inline-block;
+  width: 250px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+p>input {
+  width: 300px;
+  display: inline-block;
+}
+  main {
+    margin-top: 100px;
+  }
+
+  #site-footer {
+  	margin-top: 100px;
+  }
+
+.post-main a {
+	display: block;
+	font-size: 20px;
+	font-weight: bold;
+}
+.post-main img {
+	width: 350px;
+	display: block;
+}
